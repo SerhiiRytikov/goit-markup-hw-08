@@ -1,0 +1,20 @@
+/* Секції */
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.section.features-padding {
+    padding-bottom: 0;
+}
+
+.section-title {
+    margin-top: 0;
+    margin-bottom: 50px;
+    color: var(--title-text-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+}

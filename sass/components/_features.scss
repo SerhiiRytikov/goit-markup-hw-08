@@ -1,0 +1,45 @@
+/* =========== */
+/* Особливості */
+/* =========== */
+
+
+
+.features__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.features__item {
+    width: 270px;
+}
+
+.features__thumb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 270px;
+    height: 120px;
+    background-color: var(--secondary-bg-color);
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+
+.features__icon {
+    width: 70px;
+    height: 70px;
+}
+
+.features__title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.features__text {
+    font-size: 14px;
+    line-height: 1.71;
+}
