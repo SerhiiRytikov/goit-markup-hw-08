@@ -52,6 +52,11 @@
                     +38 096 111 11 11</a>
                 </li>
             </ul>
+            <button class="menu-btn js-open-menu" type="button" aria-expanded="false" aria-controls="mobile-menu">
+                <svg class="menu-btn-icon" width="40" height="40">
+                    <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+            </button>
         </div>
     </header>
 
@@ -124,10 +129,10 @@
         <!-- Чим ми займаємося -->
         <!-- ================= -->
 
-        <section class="section">
+        <section class="section activities">
             <div class="container">
                 <h2 class="section-title">Чим ми займаємося</h2>
-                <ul class="activities list">
+                <ul class="activities__list list">
                     <li class="activities__item">
                         <img class="activities__img" src="./images/box1.jpg"
                             alt="Бекенд розробка, людина програмує на ПК, між монітором та клавіатурою стоїть планшет із зразком программи, лівіше клавіатури лежить лист формату А4 із зображенням блок-схеми"
@@ -549,6 +554,41 @@
       </div>
     </div>
 
+    <!-- =========== -->
+    <!-- Mobile Menu -->
+    <!-- =========== -->
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+        <button class="menu-btn menu-toggle js-close-menu">
+            <svg class="menu-btn-icon" width="24" height="24">
+                <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+        </button>
+    
+        <ul class="mobile-nav list">
+            <li><a href="" class="link nondecor">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+        </ul>
+        <!-- <div class="mobile-wrap"> -->
+        <ul class="mobile-contacts">
+            <li><a href="" class="link">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+        </ul>
+        <ul class="mobile-socials">
+            <li><a href="" class="link">About</a></li>
+            <li><a href="" class="link">Products</a></li>
+            <li><a href="" class="link">Contacts</a></li>
+            <li><a href="" class="link">Career</a></li>
+        </ul>
+        <!-- </div> -->
+    </div>
+
     <script src="./js/modal.js"></script>
+    <script defer src="./js/mobile-menu.js"></script>
+
 </body>
 </html>
