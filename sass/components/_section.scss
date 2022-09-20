@@ -5,16 +5,16 @@
     padding-bottom: 94px;
 }
 
-.section.features-padding {
-    padding-bottom: 0;
-}
-
 .section-title {
     margin-top: 0;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     color: var(--title-text-color);
     text-align: center;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
+
+    @media screen and (min-width: 1200px) {
+        margin-bottom: 50px;
+    }
 }

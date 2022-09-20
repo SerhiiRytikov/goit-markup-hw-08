@@ -1,0 +1,115 @@
+@charset "UTF-8";
+/* ===== */
+/* Футер */
+/* ===== */
+.footer {
+  padding: 60px 0;
+  background-color: #2F303A;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+}
+
+.footer-address {
+  margin-right: 70px;
+}
+
+.footer .logo {
+  margin: 0;
+}
+
+.address {
+  margin-top: 20px;
+  font-style: normal;
+}
+
+address .item:not(:first-child) {
+  margin-top: 9px;
+}
+
+.footer-link .map {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+.footer-link .contacts {
+  -webkit-transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1.71;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link .map:hover,
+.footer-link .map:focus,
+.footer-link .contacts:hover,
+.footer-link .contacts:focus {
+  color: var(--accent-color);
+}
+
+/* Футер Соціальні мережі */
+.footer .links {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--white-color);
+  margin-bottom: 20px;
+}
+
+/* Футер Підписки */
+.subscribe__form {
+  margin-left: 93px;
+}
+
+.subscribe__form-title {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: var(--white-color);
+}
+
+.subscribe__form-field {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe__form-input {
+  width: 358px;
+  height: 50px;
+  padding: 15px 0 15px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.subscribe__form-btn {
+  margin-left: 12px;
+}
+
+.btn__send {
+  margin-left: 10px;
+}/*# sourceMappingURL=footer1200.css.map */
