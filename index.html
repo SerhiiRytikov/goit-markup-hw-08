@@ -40,7 +40,7 @@
         <ul class="contacts list">
           <li class="item">
             <a href="mailto:info@devstudio.com" class="link nondecor">
-              <svg class="icon" width="16px" height="12px">
+              <svg class="icon icon__mail">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
@@ -48,7 +48,7 @@
           </li>
           <li class="item">
             <a href="tel:+380961111111" class="link nondecor">
-              <svg class="icon" width="10px" height="16px">
+              <svg class="icon icon__phone">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -630,19 +630,16 @@
 
     <div class="menu-container js-menu-container" id="mobile-menu">
       <button class="menu-btn menu-toggle js-close-menu">
-        <svg class="menu-btn-icon" width="24" height="24">
+        <svg class="menu-btn-icon" width="40" height="40">
           <use href="./images/icons.svg#icon-close"></use>
         </svg>
       </button>
 
-      <nav class="nav-menu">
-        <ul class="mobile-nav list">
-          <li><a href="./index.html" class="mobile-nav__link nondecor">Студія</a></li>
-          <li><a href="./portfolio.html" class="mobile-nav__link nondecor">Портфоліо</a></li>
-          <li><a href="" class="mobile-nav__link nondecor">Контакти</a></li>
-        </ul>
-      </nav>
-
+      <ul class="mobile-nav list">
+        <li><a href="./index.html" class="mobile-nav__link current nondecor">Студія</a></li>
+        <li><a href="./portfolio.html" class="mobile-nav__link nondecor">Портфоліо</a></li>
+        <li><a href="" class="mobile-nav__link nondecor">Контакти</a></li>
+      </ul>
       <ul class="mobile-contacts list">
         <li><a href="tel:+380961111111" class="mobile-contacts__tel nondecor">+380961111111</a></li>
         <li>
@@ -667,7 +664,12 @@
       </ul>
       <!-- </div> -->
     </div>
-
+    <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
     <script src="./js/modal.js"></script>
     <script defer src="./js/mobile-menu.js"></script>
   </body>

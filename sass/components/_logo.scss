@@ -1,15 +1,18 @@
 .logo {
-    margin-right: 93px;
-    color: var(--accent-color);
-    font-family: Raleway, cursive;
-    font-size: 26px;
-    line-height: 1.19;
+  margin-right: 87px;
+  color: var(--accent-color);
+  font-family: Raleway, cursive;
+  font-size: 26px;
+  line-height: 1.19;
+  @media screen and (min-width: 1200px) {
+    margin-right: 92px;
+  }
 }
 
 .logo__dark {
-    color: #000000;
+  color: #000000;
 }
 
 .logo__white {
-    color: var(--white-color);
+  color: var(--white-color);
 }
